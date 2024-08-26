@@ -10,3 +10,22 @@ idade = idade +1;
 
 console.log(anoAtual);
 console.log(idade);
+
+//agência de viagens Dubai, New York, Maldivas, Madagascar, Chile
+
+const listaDeDestinos = new Array(
+  "Dubai",
+  "New York",
+  "Maldivas",
+  "Madagascar",
+  "Chile" 
+ );
+
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[3]);
+listaDeDestinos.push("Coronel Vivida");
+console.log(listaDeDestinos);
+listaDeDestinos.push("Austrália");
+listaDeDestinos.push("Alemanha");
+listaDeDestinos.push("Amazonas");
+console.log(listaDeDestinos);
