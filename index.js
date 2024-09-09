@@ -14,11 +14,11 @@ console.log(idade);
 //agência de viagens Dubai, New York, Maldivas, Madagascar, Chile
 
 const listaDeDestinos = new Array(
-  "Dubai",
-  "New York",
-  "Maldivas",
-  "Madagascar",
-  "Chile" 
+  " Dubai",
+  " New York",
+  " Maldivas",
+  " Madagascar",
+  " Chile" 
  );
 
 console.log(listaDeDestinos);
@@ -29,3 +29,13 @@ listaDeDestinos.push("Austrália");
 listaDeDestinos.push("Alemanha");
 listaDeDestinos.push("Amazonas");
 console.log(listaDeDestinos);
+
+const idadeComprador = 17;
+
+if(idadeComprador >=18) {
+  console.log("Comprador maior de idade");
+  console.log("destinos desponíveis: " + listaDeDestinos);
+} else { 
+  console.log("Infelizmente esta indisponivel passagem para menores de 18 anos");
+  console.log("você e menor de idade")
+}
