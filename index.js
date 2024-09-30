@@ -33,6 +33,18 @@ listaDeDestinos.push("Alemanha");
 listaDeDestinos.push("Amazonas");
 console.log(listaDeDestinos);
 
+const loginCerto = "leo";
+const senhaCerta = 123;
+
+var login = entrada("Qual e o seu login ? ");
+var senha = entrada("Digite sua senha: ");
+
+while(login != loginCerto || senha != senhaCerta){
+  console.log ("login ou senha incorretos");
+  login = entrada ("Qual e o seu login? ");
+  senha = entrada ("Digite sua senha: ");
+}
+
 var nomeComprador = entrada("digite seu nome: ");
 var idadeComprador = entrada("Qual a sua idade ?");
 
