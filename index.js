@@ -16,6 +16,12 @@ console.log(idade);
 
 //agência de viagens Dubai, New York, Maldivas, Madagascar, Chile
 
+console.log(" ");
+console.log("----------------------------------------------------");
+console.log("|                 Âgencia De Viagens               |");
+console.log("----------------------------------------------------");
+console.log(" ");
+
 const listaDeDestinos = new Array(
   " Dubai",
   " New York",
@@ -23,6 +29,7 @@ const listaDeDestinos = new Array(
   " Madagascar",
   " Chile" 
  );
+
 
 console.log(listaDeDestinos);
 console.log(listaDeDestinos[3]);
@@ -32,6 +39,10 @@ listaDeDestinos.push("Austrália");
 listaDeDestinos.push("Alemanha");
 listaDeDestinos.push("Amazonas");
 console.log(listaDeDestinos);
+
+console.log("-------------------------------------------------------");
+console.log("| *                 Àrea De Login                    * |");
+console.log("-------------------------------------------------------");
 
 const loginCerto = "leo";
 const senhaCerta = 123;
@@ -44,6 +55,8 @@ while(login != loginCerto || senha != senhaCerta){
   login = entrada ("Qual e o seu login? ");
   senha = entrada ("Digite sua senha: ");
 }
+
+
 
 var nomeComprador = entrada("digite seu nome: ");
 var idadeComprador = entrada("Qual a sua idade ?");
